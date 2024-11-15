@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial;
+    background-color: white;
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    background-color:#e1f5e1;
+    font-size: 30px;
+    padding: 15px 15px;
+    margin:0; 
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    padding:20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 100px;
+}
+
+nav ul li a {
+    color: #666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Product Sections */
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+   
+}
+
+/* Product List Styling */
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+}
+
+.product {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px gray;
+    text-align: center;
+    width: 280px;  
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.product h2 {
+    font-size: 20px;
+    color: black;
+    margin: 15px 0 5px;
+    text-align: center;
+}
+
+.product p {
+    color: grey;
+    padding: 0 15px;
+}
+
+.product .price {
+    color: #27ae60;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color:#e1f5e1;
+    color: black;
+    margin-top: 50px;
+}
+
