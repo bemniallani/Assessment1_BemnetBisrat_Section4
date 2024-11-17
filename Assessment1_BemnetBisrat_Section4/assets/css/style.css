@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial;
     background-color: white;
@@ -14,7 +14,7 @@ header h1 {
     margin:0; 
 }
 
-/* Navbar */
+
 nav {
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Product Sections */
+
 main {
     padding: 20px;
 }
@@ -52,7 +52,7 @@ h2 {
    
 }
 
-/* Product List Styling */
+
 .product-list {
     display: flex;
     justify-content: center;
@@ -92,7 +92,7 @@ h2 {
     margin: 10px 0;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 5px;
